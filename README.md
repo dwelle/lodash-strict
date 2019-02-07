@@ -1,12 +1,10 @@
 # version
 
 ```
-4.17.4
+4.17.11
 ```
 
 # building
 
-```
-$ npm i -g lodash-cli@latest
-$ lodash strict -p -o lodash.js
-```
+1. download `lodash.min.js` from https://github.com/lodash/lodash/releases
+2. manually add the `"use strict";` directive
